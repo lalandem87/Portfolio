@@ -24,7 +24,7 @@
     {
       "icon": "award",
       "name": "Certification professionnelle",
-      "desc": "OpenClassrooms · Développeur web",
+      "desc": "OpenClassRooms · Développeur web",
       "year": 2026
     }
   ],
@@ -56,7 +56,7 @@
     {
       "name": "7Artisan",
       "url": "https://7artisan.fr/",
-      "image": "",
+      "image": "/images/7artisan.png",
       "desc": "Site vitrine d'un artisan du bâtiment à Limoges et en Haute-Vienne : rénovation, isolation, aménagement extérieur et peinture. Demande de devis rapide, avis clients, bouton d'appel direct et pages services détaillées.",
       "tags": [
         "Site vitrine",
@@ -68,7 +68,7 @@
     {
       "name": "GLKolors",
       "url": "https://www.glkolors.fr/",
-      "image": "",
+      "image": "/images/glkolors.png",
       "desc": "Site one-page d'un peintre en bâtiment à Limoges : peinture intérieure, façades et décoration, galerie de réalisations, avis clients et formulaire de demande de devis.",
       "tags": ["One-page", "PHP", "Galerie", "Formulaire de devis"]
     }
