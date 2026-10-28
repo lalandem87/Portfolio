@@ -223,3 +223,35 @@ img {
   border: 1px solid rgba(244, 242, 239, 0.3);
   border-radius: 50%;
 }
+
+/* TECHNOLOGIES */
+
+.techs {
+  padding: 44px clamp(20px, 5.5vw, 80px);
+  border-bottom: 1px solid #1f1f22;
+}
+
+.techs__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px 48px;
+  list-style: none;
+}
+
+.techs__list .tech {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  font-family: var(--font-title);
+  color: #8e8e94;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.techs__list .tech svg {
+  color: var(--color-accent-light);
+  flex-shrink: 0;
+}
