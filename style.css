@@ -667,3 +667,75 @@ h2 {
   color: #a3a3a8;
   line-height: 1.65;
 }
+
+/* PARCOURS */
+
+.parcours {
+  padding: var(--section-space) var(--page-gutter);
+}
+
+.parcours__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.parcours__intro {
+  text-align: center;
+}
+
+.parcours__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr));
+  gap: 0 48px;
+  border-top: 1px solid #232327;
+}
+
+.diploma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #232327;
+  padding: 24px 0;
+}
+
+.diploma__main {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.diploma__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-accent);
+  color: #fff;
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.diploma__title {
+  font-family: var(--font-text);
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.diploma__desc {
+  font-size: 15px;
+  color: #a3a3a8;
+  margin-top: 4px;
+}
+
+.diploma__year {
+  font-size: 14px;
+  font-family: var(--font-mono);
+  color: var(--color-accent-light);
+  white-space: nowrap;
+}
