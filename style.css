@@ -1,7 +1,7 @@
 :root {
   --color-text: #f4f2ef;
   --color-bg: #0a0a0b;
-  --color-accent: #d9301a;
+  --color-accent: #b02210;
   --color-accent-light: #e46a5a;
   --color-accent-deep: #4e1109;
   --color-border: #232327;
@@ -172,8 +172,26 @@ button {
   font-weight: 500;
 }
 
-.site-header nav a {
+.site-header nav .nav__link {
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 50%,
+    #e63946 50%,
+    #ffb703 100%
+  );
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.5s ease;
   padding: 12px 0;
+}
+
+.site-header nav .nav__link:hover {
+  background-position: -100% 50%;
 }
 
 /* HERO */
@@ -575,6 +593,16 @@ button {
   border-radius: 16px;
   padding: 8px 14px;
   color: var(--color-text);
+}
+
+.projects__button-github {
+  display: flex;
+  justify-content: center;
+}
+
+.projects__button-github a:hover {
+  background-color: var(--color-accent);
+  border: 0;
 }
 
 /* SERVICES */
