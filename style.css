@@ -598,6 +598,7 @@ button {
 .projects__button-github {
   display: flex;
   justify-content: center;
+  margin-top: 56px;
 }
 
 .projects__button-github a:hover {
